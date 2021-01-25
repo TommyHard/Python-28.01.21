@@ -1,0 +1,22 @@
+<Container>:
+    orientation: 'vertical'
+    
+    Button:
+        size_hint: .5, .25
+        pos_hint: {"center_x":.5, "center_y":.5}
+        font_size: 20
+        text: 'Это кнопка'
+        background_color: 1, 1, 0, 1
+        background_normal: ''
+        on_release:
+            self.text = 'я нажата'
+
+    Button:
+        size_hint: .5, .25
+        pos_hint: {"center_x":.5, "center_y":.5}
+        font_size: 20
+        text: 'Это кнопка 2'
+        background_color: 0, 1, 1, 1
+        background_normal: ''
+        on_release:
+            self.text = 'я зафар'
